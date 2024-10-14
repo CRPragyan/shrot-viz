@@ -48,8 +48,8 @@ function animate(moves) {
     [array[i], array[j]] = [array[j], array[i]];
   }
 
-  playNote(200 + array[i] * 500);
-  playNote(200 + array[j] * 500);
+  playNote(200 + array[i] * 400);
+  playNote(200 + array[j] * 400);
   showBars(move);
   setTimeout(() => animate(moves), 100);
 }
