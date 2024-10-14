@@ -51,7 +51,7 @@ function animate(moves) {
   playNote(200 + array[i] * 500);
   playNote(200 + array[j] * 500);
   showBars(move);
-  setTimeout(() => animate(moves), 200);
+  setTimeout(() => animate(moves), 100);
 }
 
 function bubbleShort(array) {
