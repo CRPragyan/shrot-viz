@@ -1,1 +1,0 @@
-# shrot-viz
